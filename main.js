@@ -15,7 +15,7 @@ function clearCanvas() {
 }
 
 function draw() {
-    strokeWieght(13);
+    strokeWeight(13);
     stroke(0);
     if (mouseIsPressed) {
         line(pmouseX, pmouseY, mouseX, mouseY);
